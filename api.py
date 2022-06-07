@@ -7,7 +7,7 @@ class PetFriends:
     """API library for Pet Friends web application"""
 
     def __init__(self):
-        self.base_url = "https://petfriends1.herokuapp.com/"
+        self.base_url = "https://petfriends.skillfactory.ru/"
 
     def get_api_key(self, email: str, passwd: str) -> json:
         """The method makes a request to the server API and returns the status of the request and the result in the format
